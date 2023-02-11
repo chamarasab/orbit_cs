@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbit", "Orbit\Orbit.csproj", "{1FDADD7D-659A-4CF3-BCD4-F24C91A2E19E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FDADD7D-659A-4CF3-BCD4-F24C91A2E19E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDADD7D-659A-4CF3-BCD4-F24C91A2E19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDADD7D-659A-4CF3-BCD4-F24C91A2E19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDADD7D-659A-4CF3-BCD4-F24C91A2E19E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92A5B897-645D-4349-BA7C-98E1EBF52AB5}
+	EndGlobalSection
+EndGlobal
