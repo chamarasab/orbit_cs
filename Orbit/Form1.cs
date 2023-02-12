@@ -68,5 +68,12 @@ namespace Orbit
             guna2TextBox1.Text = "";
             guna2TextBox2.Text = "";
         }
+
+        private void guna2GradientCircleButton1_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.Show();
+            this.Hide();
+        }
     }
 }
