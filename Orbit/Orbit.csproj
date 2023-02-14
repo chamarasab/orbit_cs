@@ -108,6 +108,7 @@
   <ItemGroup>
     <Content Include="screenshot\ScreenRecorderProject1.gif" />
     <Content Include="screenshot\ScreenRecorderProject1_1.gif" />
+    <Content Include="screenshot\ScreenRecorderProject3.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

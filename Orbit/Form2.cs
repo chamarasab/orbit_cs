@@ -14,6 +14,7 @@ namespace Orbit
 {
     public partial class Form2 : Form
     {
+        //int USER_ID;
         public Form2()
         {
             InitializeComponent();
@@ -47,6 +48,17 @@ namespace Orbit
                     item.SelectToken("phone")
                     );
             }
+        }
+
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int user_id = Int16.Parse(guna2DataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString());
+            String user_name = guna2DataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+            int user_phone = Int32.Parse(guna2DataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString());
+            this.Hide();
+            Form1 form = new Form1();
+            form.Show();
+            form.setUserDetails(user_id,user_name,user_phone);
         }
     }
 }
