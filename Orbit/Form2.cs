@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Guna.UI2.WinForms;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -58,6 +59,7 @@ namespace Orbit
             this.Hide();
             Form1 form = new Form1();
             form.Show();
+            form.setButtonValue("Update");
             form.setUserDetails(user_id,user_name,user_phone);
         }
     }

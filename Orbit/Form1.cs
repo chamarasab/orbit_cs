@@ -19,6 +19,7 @@ namespace Orbit
         public Form1()
         {
             InitializeComponent();
+            USER_ID = 0;
         }
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
@@ -28,7 +29,7 @@ namespace Orbit
                     String name = guna2TextBox1.Text;
                     int contact = Int32.Parse(guna2TextBox2.Text);
                     
-                if (USER_ID == null)
+                if (USER_ID == 0)
                 {
                     insertData(name, contact);
                     MessageDialog.Show(name + " " + contact + "\n\nData Inserting...");
@@ -44,6 +45,10 @@ namespace Orbit
                     //throw;
                     MessageDialog.Show(ex.Message);
                 }   
+        }
+
+        public void setButtonValue(String value) {
+            guna2GradientButton1.Text = value;
         }
 
         private void updateData(int user_id, string name, int contact)
